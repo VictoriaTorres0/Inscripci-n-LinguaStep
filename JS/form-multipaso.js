@@ -11,3 +11,10 @@ function segundaVista() {
   ocultarSegundaVista.style.display = "none";
   mostrarTerceraVista.style.display = "flex";
 }
+
+function terceraVista() {
+  const ocultarTerceraVista = document.getElementById("tercera-vista");
+  const mostrarCuartaVista = document.getElementById("cuarta-vista");
+  ocultarTerceraVista.style.display = "none";
+  mostrarCuartaVista.style.display = "block";
+}
